@@ -13,7 +13,7 @@ A modern web library built with [Svelte](https://svelte.dev/) and [Tailwind CSS]
 ## Installation
 
 Ensure you have [Node.js](https://nodejs.org/) installed. Then, clone the repository and install dependencies:
-<pre>
+
 ```bash
 git clone https://github.com/Mustafa0Alalawi/web-library.git
 cd web-library
@@ -40,10 +40,11 @@ web-library/
 ├── svelte.config.js    # Svelte configuration
 ├── vite.config.js      # Vite configuration
 └── package.json        # Project metadata and scripts
-</pre>
+```
 
 
-##Demo
+## Demo
+
 
 <img width="1488" alt="Screenshot 2025-05-12 at 16 22 53" src="https://github.com/user-attachments/assets/ea3597d7-4732-4d9f-a4e6-bba29bf8d372" />
 
