@@ -1,43 +1,43 @@
-# sv
+# Web Library
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern web library built with [Svelte](https://svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/), designed to streamline the development of responsive and accessible web applications.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Svelte-Powered**: Leverages Svelte's reactive framework for efficient UI development.
+- **Tailwind CSS Integration**: Utilizes utility-first CSS for rapid styling.
+- **Vite Build Tool**: Ensures fast development and optimized production builds.
+- **Dark Mode Support**: Offers seamless toggling between light and dark themes.
+- **Responsive Design**: Adapts gracefully to various screen sizes and devices.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Installation
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Ensure you have [Node.js](https://nodejs.org/) installed. Then, clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/Mustafa0Alalawi/web-library.git
+cd web-library
+npm install
+
+Start the development server:
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+Production Build
+To create an optimized production build:
 npm run build
-```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
+npm run preview
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-# web-library
-# web-library
-# web-library
-# web-library
-# web-library
+
+web-library/
+├── src/                # Source files
+│   ├── components/     # Reusable components
+│   ├── routes/         # Application routes
+│   └── App.svelte      # Root component
+├── static/             # Static assets
+├── tailwind.config.js  # Tailwind CSS configuration
+├── svelte.config.js    # Svelte configuration
+├── vite.config.js      # Vite configuration
+└── package.json        # Project metadata and scripts
+
