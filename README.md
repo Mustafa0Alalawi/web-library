@@ -41,3 +41,7 @@ web-library/
 ├── vite.config.js      # Vite configuration
 └── package.json        # Project metadata and scripts
 
+
+
+
+<img width="1488" alt="image" src="https://github.com/user-attachments/assets/16951462-90e1-4895-aad7-af7a5cc2d992" />
